@@ -1,0 +1,7 @@
+* {
+    bg-col: #181825;
+    ol-col: #a6adc8;
+    fg-col: #cdd6f4;
+    pr-col: #94e2d5;
+    sc-col: #f38ba8;
+}
