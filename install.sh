@@ -1,0 +1,1 @@
+cp -r .config/bspwm .config/kitty .config/polybar .config/rofi .config/sxhkd ~/.config
