@@ -1,1 +1,1 @@
-cp -r .config/bspwm .config/kitty .config/polybar .config/rofi .config/sxhkd ~/.config
+cp -r .config/bspwm .config/sxhkd .config/rofi .config/polybar .config/kitty .config/neofetch .config/ranger .config/zathura ~/.config
