@@ -1,5 +1,4 @@
 configuration{
-    font: "FiraCoda NF 16";
     show-icons: false;
     icon-theme: "Tela-circle";
     display-drun: "~>";
@@ -27,7 +26,6 @@ window {
 }
 
 mainbox {
-    font-family: "FiraCode NF 16";
     background-color: inherit;
     border:	0% 0% 0% 0%;
     border-radius: 0% 0% 0% 0%;
@@ -54,7 +52,7 @@ prompt {
     padding: 0.30% 1% 0% -0.5%;
     background-color: @bg-col;
     text-color: @fg-col;
-    font: "FiraCoda NF 16";
+    font: "FiraCode NF 14";
 }
 
 entry {
@@ -109,7 +107,7 @@ element selected {
     background-color: @pr-col;
     text-color: @bg-col;
     border:	0% 0% 0% 0%;
-    border-radius: 5px;
+    // border-radius: 5px;
     border-color: @pr-col;
 }
 
@@ -123,7 +121,7 @@ mode-switcher {
 button {
   padding: 15px;
   margin: 0;
-  font: "FiraCoda NF 16";
+  font: "FiraCode NF 14";
   background-color: inherit;
   text-color: @fg-col;
   vertical-align: 0.5;
