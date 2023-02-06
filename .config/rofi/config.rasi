@@ -44,7 +44,6 @@ inputbar {
     border-radius: 0px;
     border-color: @pr-col;
     margin: 0% 0% 0% 0%;
-    padding: 1.5%;
 }
 
 prompt {
