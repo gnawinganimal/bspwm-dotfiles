@@ -19,7 +19,7 @@ window {
     border: 2px;
     border-color: @pr-col;
     border-radius: 0px;
-    width: 32%;
+    width: 24%;
     location: center;
     x-offset: 0;
     y-offset: 0;
@@ -61,15 +61,15 @@ entry {
     expand: true;
     horizontal-align: 0;
     placeholder: "Search";
-    padding: 0.60% 0% 0% -0.4%;
+    // padding: 0.60% 0% 0% -0.4%;
     blink: true;
 }
 
 listview {
     background-color: inherit;
     padding: 0;
-    columns: 3;
-    lines: 5;
+    columns: 1;
+    lines: 12;
     spacing: 2px;
     cycle: false;
     dynamic: true;
@@ -99,7 +99,7 @@ element-text {
     expand: true;
     horizontal-align: 0;
     vertical-align: 0.5;
-    margin: 0% 0.25% 0% 0.25%;
+    // margin: 0% 0.25% 0% 0.25%;
 }
 
 element selected {
@@ -118,7 +118,7 @@ mode-switcher {
 }
 
 button {
-  padding: 15px;
+  // padding: 15px;
   margin: 0;
   font: "FiraCode NF 14";
   background-color: inherit;
@@ -128,7 +128,7 @@ button {
 }
 
 button selected {
-  padding: 15px;
+  // padding: 15px;
   margin: 0;
   background-color: inherit;
   text-color: @pr-col;
