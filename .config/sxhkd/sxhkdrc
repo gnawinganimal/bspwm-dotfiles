@@ -28,7 +28,7 @@ XF86AudioLowerVolume
 
 # raise volume
 XF86AudioRaiseVolume
-    pulsemixer --change-volume +10 --max-volume 100
+    pulsemixer --change-volume +10
 
 # decrease brighness
 XF86MonBrightnessDown
