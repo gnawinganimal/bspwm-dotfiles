@@ -3,7 +3,7 @@
 # AUTOSTART PROGRAMS
 
 pgrep -x sxhkd > /dev/null || sxhkd &
-polybar &
+~/.config/polybar/launch.sh &
 # todo: widgets
 picom --experimental-backends  --config ~/.config/picom/picom.conf &
 ~/.fehbg &
