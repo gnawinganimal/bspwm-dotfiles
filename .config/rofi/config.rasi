@@ -1,9 +1,9 @@
 configuration{
     show-icons: false;
     icon-theme: "Tela-circle";
-    display-drun: ">> ";
-    display-run: ">> ";
-    display-window: ">> ";
+    display-drun: "󰘧 ";
+    display-run: "󰘧 ";
+    display-window: "󰘧 ";
     drun-display-format: "{name}";
     hide-scrollbar: true;
     sidebar-mode: false;
@@ -23,7 +23,7 @@ window {
     location: center;
     x-offset: 0;
     y-offset: 0;
-    font: "FiraCode NF 12";
+    font: "JetBrains Mono Nerd Font 12";
 }
 
 mainbox {
@@ -51,8 +51,8 @@ prompt {
     enabled: true;
     // padding: 0.30% 1% 0% -0.5%;
     background-color: @bg-col;
-    text-color: @fg-col;
-    font: "FiraCode NF 12";
+    text-color: @pr-col;
+    font: "FiraCode NF 14";
 }
 
 entry {
