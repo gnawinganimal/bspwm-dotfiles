@@ -1,1 +1,1 @@
-cp -r .config/bspwm .config/sxhkd .config/rofi .config/polybar .config/kitty .config/fish .config/neofetch .config/ranger .config/zathura .config/dunst .config/cava ~/.config
+cp .config .fonts $HOME -r
