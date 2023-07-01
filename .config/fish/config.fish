@@ -3,6 +3,10 @@ if status is-interactive
     # Commands to run in interactive sessions can go here
 end
 
+function fish_postexec --on-event fish_postexec
+    printf "\n"
+end
+
 fish_add_path ~/.script
 fish_add_path ~/.local/bin
 # fish_add_path ~/tizen-studio/package-manager
