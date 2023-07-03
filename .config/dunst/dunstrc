@@ -2,20 +2,21 @@
     width = 200
     height = 100
     origin = top-right
-    offset = 0x20
+    offset = 12x42
 	notification_limit = 10
     progress_bar = false
 	separator_height = 3
-	font = FiraCode NF
+	font = JetBrains Mono Nerd Font
     alignment = right
     show_age_threshold = -1
     show_indicators = no
     icon_position = off
     corner_radius = 0
-    frame_color = "#eeeeee"
-    background = #24273a
-    foreground = #cad3f5
-    format = "%s\n%b"
+    frame_color = "#f5bde6"
+    frame_width = 2
+    background = "#24273a"
+    foreground = "#cdd6f4"
+    format = "<b>%s</b>\n%b"
 
 [urgency_low]
     timeout = 5
