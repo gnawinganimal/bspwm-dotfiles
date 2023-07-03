@@ -1,5 +1,6 @@
 # bspwm-dotfiles
-My bspwm dotfiles in case I distrohop again :|
+
+My bspwm dotfiles that I use for my daily driver
 
 ### Overview
 | Component         | Program |
