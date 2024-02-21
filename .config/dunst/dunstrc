@@ -1,19 +1,19 @@
 [global]
-    width = 200
-    height = 100
-    origin = top-right
-    offset = 12x42
+    width = 256
+    height = 512
+    origin = bottom-right
+    offset = 28x56
 	notification_limit = 10
     progress_bar = false
 	separator_height = 3
-	font = JetBrains Mono Nerd Font
-    alignment = right
+	font = JetBrains Mono Nerd Font 11
+    alignment = left
     show_age_threshold = -1
     show_indicators = no
     icon_position = off
     corner_radius = 0
     frame_color = "#f5bde6"
-    frame_width = 2
+    frame_width = 1
     background = "#24273a"
     foreground = "#cdd6f4"
     format = "<b>%s</b>\n%b"

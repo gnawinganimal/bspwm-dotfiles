@@ -16,14 +16,14 @@ window {
     background-color: @bg-col;
     text-color: @fg-col;
     padding: 5px;
-    border: 2px;
+    border: 1px;
     border-color: @pr-col;
     border-radius: 0px;
     width: 24%;
     location: center;
     x-offset: 0;
     y-offset: 0;
-    font: "JetBrains Mono Nerd Font 12";
+    font: "JetBrains Mono Nerd Font 11";
 }
 
 mainbox {

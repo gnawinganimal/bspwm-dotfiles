@@ -1,1 +1,1 @@
-cp .config .fonts macchiato.png $HOME -r
+cp .config .fonts bg $HOME -r
